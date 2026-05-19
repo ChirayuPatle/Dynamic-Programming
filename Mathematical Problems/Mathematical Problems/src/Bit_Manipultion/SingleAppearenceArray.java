@@ -11,7 +11,7 @@ public class SingleAppearenceArray {
         int unique = 0;
 
         for(int n: arr){
-            unique ^= n;
+            unique ^= n; 
         }
 
         return unique;
